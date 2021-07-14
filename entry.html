@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>entry page</title>
+    <meta charset="utf8">
+  </head>
+  <body>
+    <h2>회원가입 페이지</h2>
+    <form>
+      <label for="id">아이디:</label>
+      <input type="text" id="id" name="id"><br>
+      <label for="email">메일:</label>
+      <input type="text" id="email" name="email"><br>
+      <label for="pw">비밀번호:</label>
+      <input type="password" id="pw" name="pw"><br>
+      <label for="pw2">비밀번호 확인:</label>
+      <input type="password" id="pw2" name="pw2"><br>
+      
+      <label for="mail">메일수신 동의</label>
+      <input type="radio" id="agree" name="mail" value="agree">
+      <label for="agree">동의</label>
+      <input type="radio" id="disagree" name="mail" value="disagree">
+      <label for="disagree">동의하지 않음</label><br>
+     
+      <label for="field">관심분야</label>
+      <input type="checkbox" id="ai" name="ai" value="AI">
+      <label for="ai">AI</label>
+      <input type="checkbox" id="iot" name="iot" value="IOT">
+      <label for="iot">IOT</label>
+      <input type="checkbox" id="bigdata" name="bigdata" value="BigData">
+      <label for="bigdata">BigData</label>
+      <input type="checkbox" id="cloud" name="cloud" value="Cloud">
+      <label for="Cloud">IOT</label><br>
+
+      <label for="job">역할</label>
+      <select id="job" name="jobs">
+        <option value="volvo">Back-End Developer</option>
+        <option value="saab">Front-End Developer</option>
+        <option value="fiat">Full-Stack Developer</option>
+        <option value="audi">DevOps Engineer</option>
+        <option value="audi">Architector</option>
+        <option value="audi">Analysis</option>
+      </select><br><br>
+
+      <input type="submit" value="가입">
+      <input type="reset" value="초기화">
+    </form>
+  </body>
+</html>
