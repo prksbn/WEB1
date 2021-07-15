@@ -3,14 +3,30 @@
   <head>
     <title>Web Example</title>
     <meta charset="utf8">
+    <link rel="stylesheet" href="./form/style.css">
+  </link>
+  <style>
+    .button {
+      background-color: #8ac7d6;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    </style>
   </head>
   <body>
     <div id="nav">
       <ol>
         <!-- a : href url로 request - href id 참조하는 경우 해당 id로 이동하는 link bookmark-->
-        <li><a href="Login.html">로그인 페이지로 이동</a></li>
-        <li><a href="Entry.html">회원가입 페이지로 이동</a></li>
-        <li><a href="Todo.html">일정관리 페이지로 이동</a></li>
+        <li><a href="Login.html" class="button">로그인 페이지로 이동</a></li>
+        <li><a href="Entry.html" class="button">회원가입 페이지로 이동</a></li>
+        <li><a href="Todo.html" class="button">일정관리 페이지로 이동</a></li>
       </ol>
     </div>
   </body>
