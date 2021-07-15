@@ -3,6 +3,20 @@
   <head>
     <title>Todo page</title>
     <meta charset="utf8">
+    <style>
+      .button {
+      background-color: #8ac7d6;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+    </style>
   </head>
   <body>
     <h2>일정관리 페이지</h2>
@@ -14,7 +28,7 @@
       </textarea><br>
       <label for="date">일정 :</label>
       <input type="date" id="todo" name="todo"><br><br>
-      <input type="submit" value="일정등록">
+      <input class="button" type="submit" value="일정등록">
       
     </form>
   </body>
